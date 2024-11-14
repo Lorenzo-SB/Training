@@ -11,9 +11,7 @@ elif age < 0:                               #Check if the age is less than 0
 
 else:                                       #If none of the above conditions are true the user is considered an adult
     print("Du bist Erwachsen!")             #Print that the user is an adult
-
-# ----------------------------------------------
-
+# ----------------------------------------------------------------------------
 temp = int(input("Wie viel Grad hat es heute?: "))  #Prompt the user to input the temperature and convert it to an integer
 
 if not(temp >= 0 and temp <= 30):                   #Check if the temperature is not between 0 and 30 degrees inclusive
